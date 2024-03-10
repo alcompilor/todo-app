@@ -1,0 +1,16 @@
+.add_todo_form {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+.add_todo_form>* {
+    min-width: max-content;
+}
+
+.add_todo_input {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 2% 3%;
+}

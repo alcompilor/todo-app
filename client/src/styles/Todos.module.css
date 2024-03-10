@@ -1,0 +1,25 @@
+.todos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 0 2%;
+    border-radius: 13px;
+    width: max-content;
+}
+
+.delete_btn {
+    background-color: #661111;
+}
+
+.task {
+    font-size: 1.2em;
+}

@@ -1,0 +1,18 @@
+.controls {
+    position: relative;
+    display: flex;
+    gap: 1em;
+    margin-bottom: 15px;
+}
+
+.controls::after {
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #ffffff14;
+    width: 100%;
+    bottom: -20px;
+}
+
+.clearall_btn {
+    background-color: #661111;
+}
